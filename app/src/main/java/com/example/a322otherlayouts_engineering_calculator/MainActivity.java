@@ -3,7 +3,6 @@ package com.example.a322otherlayouts_engineering_calculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -13,10 +12,14 @@ public class MainActivity extends AppCompatActivity {
     private TextView textViewInputNumbers;
     private Button buttonChange;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
 
         textViewInputNumbers = findViewById(R.id.textViewInputNumbers);
 
@@ -41,14 +44,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         TextView textViewButtonE = findViewById(R.id.textViewButtonE);
-        textViewButtonC.setOnClickListener(new View.OnClickListener() {
+        textViewButtonE.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Layout layoutCommon = (Layout) findViewById(R.id.relativeLayout0);
-                layoutCommon
-                textViewInputNumbers.setText("");
-
+                if ( findViewById(R.id.relativeLayout0).getVisibility() == View.VISIBLE) {
+                    findViewById(R.id.relativeLayout0).setVisibility(View.GONE);
+                    findViewById(R.id.relativeLayoutEngeneering).setVisibility(View.VISIBLE);
+                } else {
+                    findViewById(R.id.relativeLayout0).setVisibility(View.VISIBLE);
+                    findViewById(R.id.relativeLayoutEngeneering).setVisibility(View.GONE);
+                }
             }
         });
 
