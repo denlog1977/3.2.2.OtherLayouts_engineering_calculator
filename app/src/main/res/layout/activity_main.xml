@@ -137,7 +137,7 @@
                     android:layout_weight="1" >
 
                     <Button
-                        android:id="@+id/button"
+                        android:id="@+id/textViewButtonE1"
                         android:layout_weight="1"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButtonChange"/>
@@ -268,10 +268,6 @@
                         android:text="@string/textViewE7" />
                 </LinearLayout>
 
-
-
-
-
         </LinearLayout>
 
         <LinearLayout
@@ -390,7 +386,7 @@
                     android:layout_weight="1" >
 
                     <Button
-                        android:id="@+id/textViewButtonE"
+                        android:id="@+id/textViewButtonE2"
                         android:layout_weight="1"
                         style="@style/FontTheme30"
                         android:text="@string/textViewButtonChange"/>

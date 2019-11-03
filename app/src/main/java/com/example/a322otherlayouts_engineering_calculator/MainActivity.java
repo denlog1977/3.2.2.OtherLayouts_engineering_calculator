@@ -45,17 +45,18 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        TextView textViewButtonE = findViewById(R.id.textViewButtonE);
-        textViewButtonE.setOnClickListener(new View.OnClickListener() {
+        TextView textViewButtonE1 = findViewById(R.id.textViewButtonE1);
+        textViewButtonE1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if ( findViewById(R.id.relativeLayout0).getVisibility() == View.VISIBLE) {
-                    findViewById(R.id.relativeLayout0).setVisibility(View.GONE);
-                    findViewById(R.id.relativeLayoutEngeneering).setVisibility(View.VISIBLE);
-                } else {
-                    findViewById(R.id.relativeLayout0).setVisibility(View.VISIBLE);
-                    findViewById(R.id.relativeLayoutEngeneering).setVisibility(View.GONE);
-                }
+                ChangeVisibility();
+            }
+        });
+        TextView textViewButtonE2 = findViewById(R.id.textViewButtonE2);
+        textViewButtonE2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ChangeVisibility();
             }
         });
 
@@ -70,4 +71,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    private void ChangeVisibility() {
+        if ( findViewById(R.id.relativeLayout0).getVisibility() == View.VISIBLE) {
+            findViewById(R.id.relativeLayout0).setVisibility(View.GONE);
+            findViewById(R.id.relativeLayoutEngeneering).setVisibility(View.VISIBLE);
+        } else {
+            findViewById(R.id.relativeLayout0).setVisibility(View.VISIBLE);
+            findViewById(R.id.relativeLayoutEngeneering).setVisibility(View.GONE);
+        }
+    }
+
 }
