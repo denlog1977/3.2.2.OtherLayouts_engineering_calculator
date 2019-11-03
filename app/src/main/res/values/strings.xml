@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">3.2.2 Calculator Pro</string>
     <string name="textViewInputNumbers">0</string>
+    <string name="textViewE1">#</string>
+    <string name="textViewE2">$</string>
+    <string name="textViewE3">^</string>
+    <string name="textViewE4">"@"</string>
+    <string name="textViewE5">&</string>
+    <string name="textViewE6">( )</string>
+    <string name="textViewE7">V</string>
+    <string name="textViewE8">|</string>
+
     <string name="textViewButton1">1</string>
     <string name="textViewButton2">2</string>
     <string name="textViewButton3">3</string>

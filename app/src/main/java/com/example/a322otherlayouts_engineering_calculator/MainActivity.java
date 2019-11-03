@@ -3,6 +3,7 @@ package com.example.a322otherlayouts_engineering_calculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.Layout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -40,6 +41,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        TextView textViewButtonE = findViewById(R.id.textViewButtonE);
+        textViewButtonC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Layout layoutCommon = (Layout) findViewById(R.id.relativeLayout0);
+                layoutCommon
+                textViewInputNumbers.setText("");
+
+            }
+        });
 
 
     }

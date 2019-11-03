@@ -13,7 +13,7 @@
         android:id="@+id/relativeLayout0"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="visible">
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/textViewInputNumbers"
@@ -198,5 +198,259 @@
 
 
     </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutEngeneering"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/textViewInputNumbers"
+            style="@style/FontTheme30InputNumbers"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewInputNumbers" />
+
+        <LinearLayout
+            android:id="@+id/r1"
+            android:layout_below="@id/textViewInputNumbers"
+            android:orientation="vertical"
+            android:background="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+                <LinearLayout
+                    android:id="@+id/row-2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/textViewE4"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewE4"/>
+                    <TextView
+                        android:id="@+id/textViewE5"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewE5"/>
+                    <TextView
+                        android:id="@+id/textViewE6"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewE6"/>
+                    <TextView
+                        android:id="@+id/textViewE8"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewE8"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/row-1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/textViewE1"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewE1" />
+                    <TextView
+                        android:id="@+id/textViewE2"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewE2" />
+                    <TextView
+                        android:id="@+id/textViewE3"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewE3" />
+                    <TextView
+                        android:id="@+id/textViewE7"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewE7" />
+                </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/r2"
+            android:layout_below="@id/r1"
+            android:orientation="horizontal"
+            android:background="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:id="@+id/column0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/row0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textViewButtonC"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButtonC" />
+
+                    <TextView
+                        android:id="@+id/textViewButtonPlusMinus"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButtonPlusMinus" />
+
+                    <TextView
+                        android:id="@+id/textViewButtonPercent"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButtonPercent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/row1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textViewButton7"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton7" />
+
+                    <TextView
+                        android:id="@+id/textViewButton8"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton8" />
+
+                    <TextView
+                        android:id="@+id/textViewButton9"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton9" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/row2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textViewButton4"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton4" />
+
+                    <TextView
+                        android:id="@+id/textViewButton5"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton5" />
+
+                    <TextView
+                        android:id="@+id/textViewButton6"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/row3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textViewButton1"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton1" />
+
+                    <TextView
+                        android:id="@+id/textViewButton2"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton2" />
+
+                    <TextView
+                        android:id="@+id/textViewButton3"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButton3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/row4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_weight="1"
+                        style="@style/FontTheme30"
+                        android:text="@string/textViewButtonChange"/>
+
+                    <TextView
+                        android:id="@+id/textViewButton0"
+                        style="@style/FontTheme30"
+                        android:layout_weight="1"
+                        android:text="@string/textViewButton0" />
+
+                    <TextView
+                        android:id="@+id/textViewButtonDot"
+                        style="@style/FontTheme30"
+                        android:layout_weight="1"
+                        android:text="@string/textViewButtonDot" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/column1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="3">
+
+                <TextView
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonDivision"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonDivision" />
+                <TextView
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonMulti"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonMulti" />
+                <TextView
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonMinus"
+                    android:text="@string/textViewButtonMinus" />
+                <TextView
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonPlus"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonPlus" />
+                <TextView
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonEqual"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonEqual" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
 
 </FrameLayout>
